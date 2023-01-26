@@ -318,7 +318,7 @@ hr
     .small-card
     {
         width: 600px;
-        height: 800px;
+        height: fit-content;
     }
     .small-card .card-img-top
     {
