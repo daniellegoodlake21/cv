@@ -16,7 +16,7 @@ a:hover
 }
 .middle-container
 {
-    background-color: white
+    background-color: white;
 }
 h2
 {
@@ -323,5 +323,9 @@ hr
     .small-card .card-img-top
     {
         height: 400px;
+    }
+    .flip-card-back .card-img-top
+    {
+        height: 450px;
     }
 }
