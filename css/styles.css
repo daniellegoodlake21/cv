@@ -295,6 +295,18 @@ hr
     {
         margin: auto;
     }
+    .flip-card
+    {
+        height: 850px
+    }
+    .flip-card.card-s
+    {
+        height: 700px;
+    }
+    .flip-card.card-xl
+    {
+        height: 1150px;
+    }
     .card-body h4
     {
         font-size: xx-large;
@@ -303,22 +315,13 @@ hr
     {
         font-size: x-large;
     }
-    .flip-card-inner .card-img-top
-    {
-        height: 500px;
-    }
-    .flip-card
-    {
-        height: 800px;
-        touch-action: pan-y;
-    }
     .small-card
     {
-        width: 600px;
+        width: 800px;
         height: fit-content;
     }
     .small-card .card-img-top
     {
-        height: 300px;
+        height: 400px;
     }
 }
