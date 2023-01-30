@@ -10,18 +10,19 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <div class="top-container">
+    <div class="top-container no-bottom-padding">
         <h1>Danielle's Programming Experience Examples</h1>
-        <h2>Personal Websites and App Projects</h2>
+        <h2 class="project-category">Personal Websites and App Projects</h2>
+        <h3 class="project-subcategory">Main Personal Projects</h3>
         <div class="container-fluid">
             <div class="row gy-5">
                 <div class="col-lg-6">
-                    <div class="flip-card card-xl text-center">
+                    <div class="flip-card card-xxl text-center">
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
                                 <div class="card-up">
                                     <video class="card-img-top" width="300" height="250" controls>
-                                        <source src="videos/activity-booking-wesbite.mp4" type="video/mp4" alt="Activity Booking Website Sample Demo"/>
+                                        <source src="videos/activity-booking-wesbite.mp4" type="video/mp4">
                                         Your browser cannot play this video.   
                                     </video>
                                 </div>
@@ -48,7 +49,7 @@
                             <div class="flip-card-back">
                                 <div class="card-up card-img-top code-sample">
                                     <h4 class="text-light">Activity Booking Website Sample Code</h4>
-                                    <img class="card-img-top code-sample-img" src="images/javascript-experience.png">
+                                    <img class="card-img-top code-sample-img" src="images/javascript-experience.png" alt="Activity Booking Wesbite">
                                 </div> 
                                 <div class="card-body">
                                     <br>
@@ -65,7 +66,7 @@
                             <div class="flip-card-front">
                                 <div class="card-up">
                                     <video class="card-img-top" width="300" height="250" controls>
-                                        <source src="videos/story-creator-personal-project.mp4" type="video/mp4" alt="Story Creator Sample Demo"/>
+                                        <source src="videos/story-creator-personal-project.mp4" type="video/mp4">
                                         Your browser cannot play this video.   
                                     </video>
                                 </div>
@@ -80,7 +81,7 @@
                             <div class="flip-card-back">
                                 <div class="card-up card-img-top code-sample">
                                     <h4 class="text-light">Story Creator Sample Code</h4>
-                                    <img class="card-img-top code-sample-img" src="images/json_csharp_experience.png">
+                                    <img class="card-img-top code-sample-img" src="images/json_csharp_experience.png" alt="Story Creator">
                                 </div> 
                                 <div class="card-body">
                                     <br>
@@ -93,7 +94,49 @@
                 </div>
             </div>
         </div>
-        <h2>University Assignments</h2>
+        <h3 class="project-subcategory">Smaller Personal Projects</h3>
+        <div>
+            <div class="container-fluid">
+                <div class="row gy-5">
+                    <div class="col-lg-6">
+                        <div class="big-card">
+                            <div class="card-up">
+                                <img class="card-img-top" height="150" width="200" src="images/multiplayer-holiday-game.png" alt="Multiplayer Holiday Game"> 
+                            </div>
+                            <div class="card-body">
+                                <h4>'How Well Do You Know Each Other' Holiday Game App</h4>
+                                <p class="project-card-description">
+                                    I created a 4 player, 2 team Android tablet game in Unity using C Sharp. It was for my family in the lead-up to a special holiday. The game saves automatically after each question. The game was played follows:
+                                </p>
+                                <ul class="project-card-description">
+                                    <li>It was split into 3 rounds. Each round displayed a series of images in 'Setup Mode' for each player, then in 'Quiz Mode' for each player.</li>
+                                    <li>During Setup Mode, each player taps a facial expression image to rate their excitement for the upcoming holiday activity - their teammate should not look! In the photo, the activity was watching the Disney fireworks.</li>
+                                    <li>During Quiz Mode, each player guesses how their teammate rated their excitemnet for the activity.</li>
+                                    <li>Close answers (one out) scored 5 points for their team, while exact answers scored 10 points. The team with the most points at the end of the game wins.</li>
+                                </ul>
+                            </div>
+                        </div>
+                     </div>
+                    <div class="col-lg-6">
+                        <div class="big-card">
+                            <div class="card-up">
+                                <img class="card-img-top" height="150" width="200" src="images/mod-creator.png" alt="Mod Creator"> 
+                            </div>
+                            <div class="card-body">
+                                <h4>The Sims 4 Mod Generator Tool (Experimental)</h4>
+                                <p class="project-card-description">
+                                    I implemented a section of my Mod Generator (for my own personal use) in C Sharp, using Windows Forms in Visual Studio. It took user input (for example, what text do you want to display in-game here, select an icon to be used, etcetera). It then generated XML tuning files based on that input which can immediately be packaged and loaded into the game.</p>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="middle-container margin-x">
+        <h2 class="project-category">Academic Projects</h2>
+        <h3 class="project-subcategory">Main University Assignments</h3>
         <div class="container-fluid">
             <div class="row gy-5">
                 <div class="col-lg-6">
@@ -102,7 +145,7 @@
                             <div class="flip-card-front">
                                 <div class="card-up">
                                     <video class="card-img-top" width="300" height="250" controls>
-                                        <source src="videos/parcel-tracking-university-project.mp4" type="video/mp4" alt="Story Creator Sample Demo"/>
+                                        <source src="videos/parcel-tracking-university-project.mp4" type="video/mp4">
                                         Your browser cannot play this video.   
                                     </video>
                                 </div>
@@ -127,7 +170,7 @@
                             <div class="flip-card-back">
                                 <div class="card-up card-img-top code-sample">
                                     <h4 class="text-light">Parcel Tracking System Sample Code</h4>
-                                    <img class="card-img-top code-sample-img" src="images/php_experience.png">
+                                    <img class="card-img-top code-sample-img" src="images/php_experience.png" alt="Parcel Tracking System">
                                 </div> 
                                 <div class="card-body">
                                     <br>
@@ -139,12 +182,12 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class="flip-card text-center">
+                    <div class="flip-card card-l text-center">
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
                                 <div class="card-up">
                                     <video class="card-img-top" width="300" height="250" controls>
-                                        <source src="videos/football-team-university-project.mp4" type="video/mp4" alt="Story Creator Sample Demo"/>
+                                        <source src="videos/football-team-university-project.mp4" type="video/mp4">
                                         Your browser cannot play this video.   
                                     </video>
                                 </div>
@@ -167,7 +210,7 @@
                             <div class="flip-card-back">
                                 <div class="card-up card-img-top code-sample">
                                     <h4 class="text-light">Football Fan News Sample Code</h4>
-                                    <img class="card-img-top code-sample-img" src="images/python_experience.png">
+                                    <img class="card-img-top code-sample-img" src="images/python_experience.png" alt="Football Fan News">
                                 </div> 
                                 <div class="card-body">
                                     <br>
@@ -179,19 +222,52 @@
                     </div>  
                 </div>
             </div>
-        </div>
+        </div>   
     </div>
     <div class="middle-container">
-        <h2>Other Programming Experience</h2>
+        <h3 class="project-subcategory">Miscellaneous Academic Projects</h3>
+        <div class="container-fluid">
+            <div class="row gy-5 misc-programming">
+                <div class="col-lg-4">
+                    <div class="card small-card">
+                        <div class="card-body">
+                            <h4>Java Assignment</h4>
+                            <p class="project-card-description">
+                                In my first university programming assignment, I used Java in Eclipse for a series of tasks including file handling and user input There was a strong emphasis on passing assertions (code tests).
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card small-card">
+                        <div class="card-body">
+                            <h4>Sixth Form Python Coursework</h4>
+                            <p class="project-card-description">
+                                In sixth form, I used Python and Tkinter for my Computer Science A-Level coursework to create an app which stores a message inside an image (by subtly changing the pixels' RGB values) when provided with a key. This key can also be used to retrieve the message from the image. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card small-card">
+                        <div class="card-body">
+                            <h4>Python, JavaScript and JSON Assignment</h4>
+                            <p class="project-card-description">In my second university programming assignment, I created a multi-feature website with a local server (using Flask). The features included a calculator, a journal entry section and a 'Thought of the Day' quotes section. The journal entries and quotes were stored on the server.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h2 class="project-category">Other Programming Experience</h2>
         <br>
-        <h3>Udemy Course Mini Challenges</h3>
+        <h3 class="project-subcategory">Udemy Course Mini Challenges</h3>
         <p>I am progressing through Udemy's 'The Complete 2023 Web Development Bootcamp' course.<br>So far, these are some examples of mini challenges for which I downloaded starter template projects.<br>I then wrote the JavaScript, and updated some HTML and CSS, to implement the functionality.</p>
         <div class="container-fluid">
             <div class="row gy-5 misc-programming">
                 <div class="col-lg-4">
                     <div class="card small-card">
                         <video class="card-img-top" width="200" height="150" controls>
-                            <source src="videos/simon-game-mini-challenge.mp4" type="video/mp4" alt="Story Creator Sample Demo"/>
+                            <source src="videos/simon-game-mini-challenge.mp4" type="video/mp4">
                             Your browser cannot play this video.   
                         </video>
                         <div class="card-body">
@@ -202,7 +278,7 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="card small-card">
-                        <img class="card-img-top" height="150" width="200" src="images/dice-mini-challenge.png">
+                        <img class="card-img-top" height="150" width="200" src="images/dice-mini-challenge.png" alt="Dice Mini Challenge">
                         <div class="card-body">
                             <h4>Dice Roller</h4>
                             <p class="project-card-description">A 2 Player Random Dice Roll Generator. Although the images came with the template, I updated which dice images are displayed (according to the result) in the JavaScript code.</p>
@@ -211,64 +287,11 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="card small-card">
-                        <img class="card-img-top" height="150" width="200" src="images/drum-kit-mini-challenge.png">
+                        <img class="card-img-top" height="150" width="200" src="images/drum-kit-mini-challenge.png" alt="Drum Kit Mini Challenge">
                         <div class="card-body">
                             <h4>Drum Kit</h4>
                             <p class="project-card-description">A website which uses the keyboard (or clicks) to make different musical sounds. This image was taken when I am pressing the W key on the keyboard, resulting in the 'button press' appearance of the W button.</p>
                         </div> 
-                    </div>
-                </div>
-            </div>
-        </div>
-        <br>
-        <h3>Miscellaneous Academic</h3>
-        <div class="container-fluid">
-            <div class="row gy-5 misc-programming">
-                <div class="col-lg-4">
-                    <div class="card small-card">
-                        <div class="card-body">
-                            <h4>Java Assignment</h4>
-                            <p class="project-card-description">
-                                In my first university programming assignment, I used Java in Eclipse for a series of tasks including file handling and user input There was a strong emphasis on passing assertions (code tests).</div>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="card small-card">
-                            <div class="card-body">
-                                <h4>Sixth Form Python Coursework</h4>
-                                <p class="project-card-description">
-                                    In sixth form, I used Python and Tkinter for my Computer Science A-Level coursework to create an app which stores a message inside an image (by subtly changing the pixels' RGB values) when provided with a key. This key can also be used to retrieve the message from the image. 
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="card small-card">
-                            <div class="card-body">
-                                <h4>Python, JavaScript and JSON Assignment</h4>
-                                <p class="project-card-description">In my second university programming assignment, I created a multi-feature website with a local server (using Flask). The features included a calculator, a journal entry section and a 'Thought of the Day' quotes section. The journal entries and quotes were stored on the server.</p>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <h3>Experimental</h3>
-        <div class="container-fluid">
-            <div class="row gy-5 misc-programming">
-                <div class="col col-lg-4 md-offset-4">
-                    <div class="central-card card small-card">
-                        <div class="card-up">
-                            <img class="card-img-top" height="150" width="200" src="images/mod-creator.png"> 
-                        </div>
-                        <div class="card-body">
-                            <h4>The Sims 4 Mod Generator Tool</h4>
-                            <p class="project-card-description">
-                                I implemented a section of my Mod Generator (for my own personal use) in C Sharp, using Windows Forms in Visual Studio. It took user input (for example, what text do you want to display in-game here, select an icon to be used, etcetera). It then generated XML tuning files based on that input which can immediately be packaged and loaded into the game.</p>
-                            </p>
-                        </div>
                     </div>
                 </div>
             </div>

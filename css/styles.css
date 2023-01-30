@@ -19,6 +19,14 @@ h3
 {
     font-size: 2.5rem;
 }
+.project-category
+{
+ margin: 2rem 0;   
+}
+.container-fluid + .project-subcategory
+{
+    margin: 2rem;
+}
 p, td, a:not(.main-link)
 {
     font-size: 1.5rem;
@@ -200,6 +208,13 @@ hr
 }
 
 /* Project Cards */
+
+.misc-programming
+{
+    margin-left: 5%;
+    margin-top: 2.5%;
+}
+
 .project-card-description
 {
     font-size: medium;
@@ -216,6 +231,21 @@ hr
     width: 400px;
     padding: 0;
     overflow-y: scroll;
+}
+.big-card
+{
+    height: 500px;
+    overflow-y: scroll;
+    background-color: white;
+    border: 1px solid #2980b9;
+}
+.big-card .card-img-top
+{
+    height: 250px;
+}
+.big-card .card-body
+{
+    padding: 1rem;
 }
 .flip-card
 {
@@ -271,15 +301,23 @@ hr
     margin: 2rem;
     margin-left: 0;
 }
-.misc-programming
+.middle-container.margin-x
 {
-    margin-left: 5%;
-    margin-top: 2.5%;
+    padding: 0;
+    margin: 0 5%;
+}
+.top-container.no-bottom-padding
+{
+    padding-bottom: 0;
 }
 
 /* Media Queries */
 @media (max-width: 1200px)
 {
+    .misc-programming
+    {
+        margin: 0;
+    }
     .rotate-btn
     {
         font-size: 1rem;
@@ -288,21 +326,33 @@ hr
     {
         height: 3rem;
     }
-    .card
+    .big-card
+    {
+        width: 100%;
+    }
+    .card, .big-card, .flip-card
     {
         margin: auto;
     }
     .flip-card
     {
-        height: 850px
+        height: 1000px;
     }
     .flip-card.card-s
     {
-        height: 700px;
+        height: 850px;
+    }
+    .flip-card.card-l
+    {
+        height: 1050px;
     }
     .flip-card.card-xl
     {
         height: 1150px;
+    }
+    .flip-card.card-xxl
+    {
+        height: 1400px;
     }
     .card-body h4
     {
@@ -312,12 +362,16 @@ hr
     {
         font-size: x-large;
     }
+    .big-card
+    {
+        height: fit-content;
+    }
     .small-card
     {
         width: 800px;
         height: fit-content;
     }
-    .small-card .card-img-top
+    .small-card .card-img-top, .big-card .card-img-top, .flip-card .card-img-top
     {
         height: 400px;
     }
