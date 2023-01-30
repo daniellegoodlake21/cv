@@ -209,9 +209,25 @@ hr
 
 /* Project Cards */
 
+.card-img-top.thin-img
+{  
+    height: 350px;
+    width: 400px; 
+    background-color: #00568c;
+}
+.card-up.blue-bg
+{
+    background-color: #142e3e;
+}
+.small-card.card-outlined
+{
+    background-color: #ffffff;
+    border: 1px solid black;
+}
+
 .misc-programming
 {
-    margin-left: 5%;
+    margin-left: 2.5%;
     margin-top: 2.5%;
 }
 
@@ -310,7 +326,6 @@ hr
 {
     padding-bottom: 0;
 }
-
 /* Media Queries */
 @media (max-width: 1200px)
 {
