@@ -317,14 +317,17 @@ hr
     margin: 2rem;
     margin-left: 0;
 }
-.middle-container.margin-x
+.top-container.programming-container
 {
-    padding: 0;
-    margin: 0 5%;
-}
-.top-container.no-bottom-padding
-{
+    margin: 0;
+    padding: 5%;
     padding-bottom: 0;
+}
+.middle-container.programming-container
+{
+    margin: 0;
+    padding: 5%;
+    padding-top: 0;
 }
 /* Media Queries */
 @media (max-width: 1200px)
