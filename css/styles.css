@@ -219,6 +219,10 @@ hr
 {
     background-color: #142e3e;
 }
+.featured-project .container-fluid .flip-card
+{
+    height: 1320px;
+}
 .small-card.card-outlined
 {
     background-color: #ffffff;
@@ -355,6 +359,10 @@ hr
     .flip-card
     {
         height: 1000px;
+    }
+    .featured-project .container-fluid .flip-card
+    {
+        height: 1400px;
     }
     .flip-card.card-s
     {
