@@ -356,9 +356,18 @@ hr
     {
         margin: auto;
     }
+    iframe.card-img-top.interactive
+    {
+        height: 1600px;
+        -webkit-overflow-scrolling: touch;
+    }
     .flip-card
     {
         height: 1000px;
+    }
+    .flip-card.text-center.card-xxl.card-interactive
+    {
+        height: 2620px;
     }
     .featured-project .container-fluid .flip-card
     {
@@ -378,7 +387,7 @@ hr
     }
     .flip-card.card-xxl
     {
-        height: 1400px;
+        height: 1420px;
     }
     .card-body h4
     {
