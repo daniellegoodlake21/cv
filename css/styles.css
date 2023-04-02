@@ -3,6 +3,10 @@ a:hover
 {
     color: darkblue !important;
 }
+.footer-link
+{
+    margin: 0 1.5rem;
+}
 h1
 {
     line-height: 2;
@@ -424,5 +428,9 @@ hr
     {
         height: 330px;
         width: 440px;
+    }
+    .empty-space
+    {
+        height: 1150px;
     }
 }
